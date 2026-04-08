@@ -1,51 +1,83 @@
-# Xlinsist 思想体系调研（五）：Timeline And Turning Points
+# Xlinsist 思想体系调研（五）：Timeline And Turning Points（切片论证版）
 
-> 调研目标：从时间线识别能力结构变化，而不是简单年度流水。
+> 调研目标：识别“能力结构变化”，而不是年份流水账。
 
 ---
 
 ## 一、阶段演化
 
-### 阶段1：记录期（感受与素材积累）
-- 特征：以经验记录为主，方法表达较弱。  
-- 证据：`blogs/2021-gossips/main.md`
+### 阶段1（2021）：情绪与观念萌芽
 
-### 阶段2：框架形成期（主线与长期视角确立）
-- 特征：开始显式讨论主线、长期规划、理性实践。  
-- 证据：`blogs/2023-columns/main.md`, `blogs/2023-columns/main-task.md`
+证据：`blogs/2021-gossips/*.md`
 
-### 阶段3：方法输出期（结构化表达显著增强）
-- 特征：从“讲经历”转为“讲规则与协议”。  
-- 证据：`blogs/2024-summary/2024-summary.md`, `blogs/2025-summary/writing-advice.md`
+特征：开始提出“补强与留白”“不要惦记”等认知策略，偏内省与观念实验。
 
-### 阶段4：高压迭代期（决策速度与边界意识增强）
-- 特征：在高压场景中快速澄清目标并做取舍。  
-- 证据：`blogs/2025-summary/2025-summary.md`
+### 阶段2（2023）：方法论显式化
 
----
+证据：`blogs/2023-columns/main-task.md`, `long-term-planning.md`, `rational-practice.md`
 
-## 二、关键转折点
+特征：主线、低空滑行、红蓝任务、严格大于0等术语体系成型。
 
-1. 从“我做了什么”转向“我如何判断”。  
-2. 从“单篇观点”转向“跨场景统一方法”。  
-3. 从“内容产出”转向“可复用框架产出”。
+### 阶段3（2024）：跨场景验证
 
----
+证据：`blogs/2024-summary/2024-summary.md`, `photography/2024-wusun/main.md`
 
-## 三、时间线启示（可执行）
+特征：方法从文本进入户外组织、团队管理、节奏治理。
 
-- 用阶段目标替代全年模糊目标。  
-- 每阶段至少沉淀一个可迁移规则。  
-- 用年际一致性看进步，不用单点输赢下判断。
+### 阶段4（2025）：工程化与可复制输出
+
+证据：`blogs/2025-summary/2025-summary.md`, `writing-advice.md`
+
+特征：出现高密度“任务颗粒度、交付节奏、汇报模板、写作闭环”。
 
 ---
 
-## 四、证据锚点（本维度主要来源）
+## 二、关键转折点（含原文切片）
+
+### 转折点1：从“做事”到“选事”
+
+来源：`blogs/2023-columns/multiple-views.md`
+
+> “选择努力的方向……在开始解决问题之前要先确保这个问题是合适的。”
+
+意义：把优化对象从执行效率提升到问题定义本身。
+
+### 转折点2：从“努力叙事”到“系统叙事”
+
+来源：`blogs/2023-columns/life-style.md`
+
+> “生活节奏……应该要优先于某个具体的事情和工作。”
+
+意义：把个人成长从项目成败迁移到系统稳定性。
+
+### 转折点3：从“主观感受”到“协议输出”
+
+来源：`blogs/2025-summary/writing-advice.md`
+
+> “形成写作闭环。”
+
+意义：开始提供可复制模板，而非只描述个人经验。
+
+---
+
+## 三、时间线上的持续不变项
+
+1. 长期主义始终在场。  
+2. 主线意识持续强化。  
+3. 对系统稳定性的重视持续上升。  
+4. 情感与人文维度始终保留，不被纯工具理性吞没。
+
+---
+
+## 四、证据锚点
 
 - `blogs/2021-gossips/main.md`
+- `blogs/2021-gossips/reinforcement-and-blank-space.md`
 - `blogs/2023-columns/main.md`
-- `blogs/2024-subjects/main.md`
+- `blogs/2023-columns/multiple-views.md`
+- `blogs/2023-columns/main-task.md`
+- `blogs/2023-columns/life-style.md`
 - `blogs/2024-summary/2024-summary.md`
+- `photography/2024-wusun/main.md`
 - `blogs/2025-summary/2025-summary.md`
-- `blogs/main.md`
-- `projects/PS.md`
+- `blogs/2025-summary/writing-advice.md`
