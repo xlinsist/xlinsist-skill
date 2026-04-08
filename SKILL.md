@@ -21,6 +21,9 @@ description: |
 - “不要泛化总结，要像调研报告”
 - “做V2对比/评测问答要可追溯”
 
+当用户明确要求“评测打分/版本对比”时，额外读取：
+- `references/research/04-evaluation-benchmark.md`
+
 ## 资料读取优先级
 
 优先读高证据密度文档，再读维度文档：

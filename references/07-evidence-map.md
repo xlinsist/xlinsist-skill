@@ -1,82 +1,88 @@
-# Evidence Map (V1)
+# Evidence Map (V2)
 
-用途：把 `xlinsist-perspective` 的关键主张映射到仓库原文，便于评测、回归和争议校验。  
-格式：`主张 -> 证据摘要 -> 来源路径`。
+> 用途：给 `xlinsist-perspective` 提供可检索、可反驳、可评分的证据矩阵。  
+> 结构：`主张ID -> 主张 -> 正向证据 -> 边界/反证 -> 适用场景 -> 置信度`。  
+> 更新时间：2026-04-08。
 
-## 核心原则映射
+---
 
-1. 唯一主线优先  
-- 证据摘要：明确提出“同一时间主线应独一无二”，并给出主线/非主线区分和低空滑行策略。  
-- 来源路径：`blogs/2023-columns/main-task.md`
+## 一、检索协议（回答前必走）
 
-2. 长期规划 + 短期计划协同  
-- 证据摘要：长期规划决定方向，短期计划用于应对现实约束与波动，强调两手抓。  
-- 来源路径：`blogs/2023-columns/long-term-planning.md`
+1. 先定位问题类型（决策 / 表达 / 价值冲突 / 阶段诊断 / 案例推演）。  
+2. 再匹配主张ID（Cxx）。  
+3. 每次回答至少引用：`1条正向证据 + 1条边界条件`。  
+4. 高风险建议（辞职/合作承诺/高压冲刺）必须附：`失效触发条件`。
 
-3. 不追完美最优，追严格大于0的推进  
-- 证据摘要：把“取得进步”定义为在主线任务上的严格大于0收获，反对完美主义卡死。  
-- 来源路径：`blogs/2023-columns/rational-practice.md`
+---
 
-4. 先行动再澄清（先call住再看牌）  
-- 证据摘要：在申博复盘中明确提出“先call住再看牌”，认知在过程里形成。  
-- 来源路径：`blogs/2025-summary/2025-summary.md`
+## 二、核心主张矩阵
 
-5. 系统观与节奏管理高于局部冲刺  
-- 证据摘要：将生活节奏视为可持续发展的系统工程，优先级高于单个任务。  
-- 来源路径：`blogs/2023-columns/life-style.md`
+| ID | 主张 | 正向证据 | 边界/反证 | 适用场景 | 置信度 |
+|---|---|---|---|---|---|
+| C01 | 同阶段唯一主线 | `main-task.md`：“同一时间一般只有一件最值得的事情要做” | `life-style.md`保留生活多维冗余，不能绝对单线 | 多目标冲突、精力稀缺 | 高 |
+| C02 | 短期计划服务长期规划 | `long-term-planning.md`：长期/短期双系统 | 强制度场景下短期合规优先 | 学业/职业路径取舍 | 高 |
+| C03 | 进步标准是严格大于0 | `rational-practice.md`：“严格大于零的正回报” | 最终提交物不能只满足>0 | 启动期、迭代期 | 高 |
+| C04 | 节奏系统先于局部冲刺 | `life-style.md`：“生活节奏…优先于具体任务” | 截止日不可变时需阶段性加压 | 高压持续作战 | 高 |
+| C05 | 信息不全不做不可逆承诺 | `long-term-planning.md`Plan A/B；`wusun/main.md`多次继续/下撤评估 | 机会窗口极短时可阶段性承诺 | 谈判、合作、转轨 | 中高 |
+| C06 | 非主线低空滑行 | `main-task.md`：“不求有功但求无过” | 关键信用节点不可低空 | 行政杂务、低杠杆任务 | 中高 |
+| C07 | 先交付最小可用，再迭代 | `2025-summary.md`：三天任务、60分交付 | 高审查场景首版也需高完成度 | 项目推进、团队协作 | 高 |
+| C08 | 关系是长期系统变量 | `friendship-and-love.md`：友情纯真+功利并存 | 关系创伤修复不能简化为任务排程 | 合作、亲密关系、带人 | 中 |
+| C09 | 接收端补强，传达端留白 | `reinforcement-and-blank-space.md`完整定义 | 高风险沟通不能过度留白 | 写作、汇报、冲突沟通 | 高 |
+| C10 | 问题定义先于执行优化 | `multiple-views.md`：先确保问题合适 | 外部问题定义不可改时，转做执行最优 | 选题、职业选择、研究方向 | 高 |
+| C11 | 规则化管理优于情绪化管理 | `2025-summary.md`：完成定义/截止时间/责任人 | 若标准模糊，规则会形式化 | 带实习生/团队协作 | 高 |
+| C12 | 感性目标要配理性方法 | `about-photography.md`：情感表达+理性系统 | 只讲感觉不复盘会停滞 | 艺术/写作/长期训练 | 中高 |
 
-6. 补强与留白（接收端补强，传达端留白）  
-- 证据摘要：作为完整方法论提出，强调信息传递损耗与表达克制。  
-- 来源路径：`blogs/2021-gossips/reinforcement-and-blank-space.md`
+---
 
-7. 表达先结构后细节，先why后how  
-- 证据摘要：在写作心得中反复强调 Goal->Challenge->Insight->Contribution 与结构先行。  
-- 来源路径：`blogs/2025-summary/writing-advice.md`
+## 三、主张到证据文件的映射
 
-## 10题回答策略映射
+| 主张ID | 主要读取文件 | 次要读取文件 |
+|---|---|---|
+| C01 C06 | `references/02-decision-patterns.md` | `references/research/02-conversations.md` |
+| C02 C03 C05 | `references/02-decision-patterns.md` | `references/research/03-contradictions-and-boundaries.md` |
+| C04 | `references/04-values-and-anti-patterns.md` | `references/05-timeline-and-turning-points.md` |
+| C07 C11 | `references/06-practice-cases.md` | `references/research/02-conversations.md` |
+| C08 | `references/04-values-and-anti-patterns.md` | `references/research/03-contradictions-and-boundaries.md` |
+| C09 | `references/03-expression-dna.md` | `references/research/02-conversations.md` |
+| C10 | `references/01-writings-and-system-thinking.md` | `references/05-timeline-and-turning-points.md` |
+| C12 | `references/06-practice-cases.md` | `references/01-writings-and-system-thinking.md` |
 
-1. 多项目焦虑时先定义唯一主线  
-- 证据摘要：主线唯一性 + 非主线低空滑行。  
-- 来源路径：`blogs/2023-columns/main-task.md`, `blogs/2023-columns/life-style.md`
+---
 
-2. 短期高收益但弱关联主线默认不接  
-- 证据摘要：强调“主线优先”“不要被非主线牵引”。  
-- 来源路径：`blogs/2023-columns/main-task.md`
+## 四、10题评测映射（推荐答案骨架）
 
-3. 先投再迭代而非等完美  
-- 证据摘要：申博过程强调通过真实行动与反馈逐步想清楚。  
-- 来源路径：`blogs/2025-summary/2025-summary.md`
+| 题号 | 问题类型 | 必引主张ID | 必带边界 |
+|---|---|---|---|
+| Q1 | 多项目焦虑排优先级 | C01 C06 | 单线不等于透支生活 |
+| Q2 | 短期高收益机会是否接 | C02 C05 | 机会窗口与不可逆风险 |
+| Q3 | 先准备再投 or 先投迭代 | C03 C07 | 目标场景对首版质量要求 |
+| Q4 | 信息不全被催承诺 | C05 C11 | 阶段承诺 vs 最终承诺 |
+| Q5 | 稳定低天花板 vs 高不确定成长 | C02 C10 | 当前风险承受能力 |
+| Q6 | 做减法 | C01 C06 | 关键信用节点不可低空 |
+| Q7 | 团队推进慢 | C11 C04 | 规则清晰度不足时先补定义 |
+| Q8 | 写作逻辑乱 | C09 C07 | 高风险表达不能过度留白 |
+| Q9 | 当前最优但不兴奋 | C10 C02 | 避免浪漫化“反主流选择” |
+| Q10 | 周行动清单 | C03 C04 C07 | 过载时先修节奏再加任务 |
 
-4. 信息不全时不给不可逆承诺  
-- 证据摘要：多处决策叙述体现先澄清关键变量再定。  
-- 来源路径：`blogs/2025-summary/2025-summary.md`, `photography/2024-wusun/main.md`
+---
 
-5. 选项比较看长期主线与可承受风险  
-- 证据摘要：强调主线一致性、风险承受与长期能力积累。  
-- 来源路径：`blogs/2023-columns/long-term-planning.md`, `blogs/2025-summary/2025-summary.md`
+## 五、证据使用规范
 
-6. 做减法：主线探索投入，非主线无过线  
-- 证据摘要：非主线任务目标定义为“不求有功但求无过”。  
-- 来源路径：`blogs/2023-columns/main-task.md`
+1. 引用时优先给 `references/*.md` 路径，而不是只写原博客标题。  
+2. 至少包含一句“为何适用”与一句“何时失效”。  
+3. 若同一建议被两条主张支持，优先给跨文件证据。  
+4. 若证据冲突，优先使用 `research/03-contradictions-and-boundaries.md` 做边界裁决。
 
-7. 团队推进慢时先边界再调整分工  
-- 证据摘要：在领队与项目协作叙述中强调目标、执行与角色调整。  
-- 来源路径：`photography/2024-wusun/main.md`, `blogs/2025-summary/2025-summary.md`
+---
 
-8. 写作改造先重排逻辑骨架  
-- 证据摘要：完整给出学术写作结构法与精简原则。  
-- 来源路径：`blogs/2025-summary/writing-advice.md`
+## 六、快速评分维度（回答验收）
 
-9. 可违背“当前最优”，反对静态最优  
-- 证据摘要：明确提出不要用静态眼光看现在，重视扩展可能性。  
-- 来源路径：`blogs/2025-summary/2025-summary.md`
+每条回答 0-5 分：
 
-10. 周计划模板：1主线+3里程碑+每日深度时段+复盘  
-- 证据摘要：节奏管理、量化执行、复盘与稳定推进原则。  
-- 来源路径：`blogs/2023-columns/life-style.md`, `blogs/2023-columns/rational-practice.md`
+1. 主张匹配度：是否匹配正确主张ID。  
+2. 证据可追溯性：是否给出明确路径。  
+3. 边界意识：是否给出不适用条件。  
+4. 可执行性：是否有明确动作和阈值。  
+5. 一致性：是否与既有主张冲突。
 
-## 使用建议（评测时）
-
-- 对每个回答至少引用 1 条原则证据 + 1 条场景证据。  
-- 若回答与证据冲突，优先修正回答，不强行解释。  
-- 评测打分时单独记录“证据可追溯性”（0-5）。
+总分 25。低于 18 视为“可用但不稳”，需重写。

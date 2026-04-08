@@ -182,10 +182,12 @@ npx skills add . -y -g
 
 - `references/research/02-conversations.md`
 - `references/research/03-contradictions-and-boundaries.md`
+- `references/research/04-evaluation-benchmark.md`
 
 这两份长文分别覆盖：  
 - `02-conversations`：原文切片与思维动作复现  
 - `03-contradictions-and-boundaries`：矛盾、边界、失效条件与失败模式
+- `04-evaluation-benchmark`：10题评测集、25分维度评分表与对比模板
 
 ---
 
