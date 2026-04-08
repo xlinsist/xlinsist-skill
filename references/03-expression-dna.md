@@ -1,32 +1,30 @@
-# Expression Dna
+# Expression DNA
 
-本维度聚焦表达结构、写作方法与信息压缩风格。
+- 维度定义：提供表达结构、写作习惯与信息压缩策略。
+- 覆盖来源：**7** 篇
+- 文本规模：**14872** 字符
+- 高频关键词：`方法`(59)，`写作`(15)，`表达`(8)，`留白`(7)，`优化`(7)，`系统`(5)
 
-- 来源数量：**7**
-- 文本总长度（字符）：**14872**
-- 高频关键词：`写作`(15)，`表达`(8)，`留白`(7)，`优化`(7)，`系统`(5)，`风险`(2)
+## 维度总结
 
-## 维度结论
+1. 表达风格偏结构化：先结论再展开，先why再how。
+2. 强调信息密度与可读性平衡，减少冗余叙述。
+3. “补强与留白”构成其沟通哲学的核心。
 
-1. 先结构后细节：先解释 why，再解释 how。
-2. 信息压缩：每段一个 takeaway，删除不支撑结论的信息。
-3. 补强与留白：接收端补强、输出端留白。
+## 素材逐条概括
 
-## 来源清单
+| 素材路径 | 标题/主题 | 概括 | 关键标签 | 对本维度贡献 |
+|---|---|---|---|---|
+| `_coverpage.md` | **xlinsist's blog** | <img width="160px" style="border-radius: 50%" bor src="imgs/avatar.webp"> | 经验、反思、方法 | 提供表达结构、写作习惯与信息压缩策略。 |
+| `_navbar.md` | _navbar | 该文以阶段经验与方法反思为主，包含可迁移的行动策略。 | 经验、反思、方法 | 提供表达结构、写作习惯与信息压缩策略。 |
+| `blogs/2021-gossips/expect-future.md` | 未知会让人期待 | 未知会让人期待。不是说觉得当下不好，只是对变化有与生俱来的好奇和兴趣。 | 选择 | 提供表达结构、写作习惯与信息压缩策略。 |
+| `blogs/2021-gossips/mind-flow.md` | 思绪两则 | 我一直琢磨着要写点午睡的东西。当我午睡时，就感觉脑海里净是些虚无的想法，好像身处嬉闹的人群，于嘈杂中捕捉到一丝熟悉的声音，但不知道哪里传来的，怎么都找不着，以为自己听错了，反而怀疑起那个声音的真实性了。 | 经验、反思、方法 | 提供表达结构、写作习惯与信息压缩策略。 |
+| `blogs/2021-gossips/reinforcement-and-blank-space.md` | 补强与留白 | 语言的表达总会存在歧义，照片等媒介所承载的符号是抽象的而不是具体的。因此对于一件事情，表达者总有各种传达的方式，聆听者总有各种解读空间。 | 留白、表达、决策 | 提供表达结构、写作习惯与信息压缩策略。 |
+| `blogs/2021-gossips/small-luck.md` | 一瞬间的情感 | 我的生活没有压迫，没有悔恨，没有极度焦虑 | 经验、反思、方法 | 提供表达结构、写作习惯与信息压缩策略。 |
+| `blogs/2025-summary/writing-advice.md` | 学术写作心得 | **论文精读/论文写作的逻辑** | 方法、写作、优化 | 提供表达结构、写作习惯与信息压缩策略。 |
 
-- `_coverpage.md`
-- `_navbar.md`
-- `blogs/2021-gossips/expect-future.md`
-- `blogs/2021-gossips/mind-flow.md`
-- `blogs/2021-gossips/reinforcement-and-blank-space.md`
-- `blogs/2021-gossips/small-luck.md`
-- `blogs/2025-summary/writing-advice.md`
+## 维度观察（可用于Skill输出）
 
-## 代表性标题线索（抽样）
-
-- `_coverpage.md`: **xlinsist's blog**
-- `blogs/2021-gossips/expect-future.md`: 未知会让人期待
-- `blogs/2021-gossips/mind-flow.md`: 思绪两则 | 午睡的思绪 | 观雨的思绪
-- `blogs/2021-gossips/reinforcement-and-blank-space.md`: 补强与留白
-- `blogs/2021-gossips/small-luck.md`: 一瞬间的情感
-- `blogs/2025-summary/writing-advice.md`: 学术写作心得 | 可快速查阅的Summary | 写在前面
+- 先给主线判断，再给取舍动作，最后给风险边界。
+- 回答尽量落到时间点、阈值和复盘条件。
+- 不确定时给验证步骤，不给伪确定结论。

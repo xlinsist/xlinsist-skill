@@ -1,39 +1,33 @@
 # Writings And System Thinking
 
-本维度聚焦世界观、方法论、抽象框架与系统性思考。
+- 维度定义：补充世界观、抽象框架或跨域方法论。
+- 覆盖来源：**10** 篇
+- 文本规模：**32864** 字符
+- 高频关键词：`选择`(39)，`表达`(24)，`实践`(11)，`方法`(10)，`节奏`(9)，`系统`(8)
 
-- 来源数量：**10**
-- 文本总长度（字符）：**32864**
-- 高频关键词：`表达`(24)，`实践`(11)，`节奏`(9)，`系统`(8)，`写作`(7)，`主线`(4)
+## 维度总结
 
-## 维度结论
+1. 把“人生长期游戏、系统观、抽象迁移”作为统一底层逻辑。
+2. 强调从具体经历中反推结构化方法，而不是停留在经验描述。
+3. 在学术与生活双线里保持同一套认知框架。
 
-1. 长期游戏观：把人生看成持续探索，而非一次性博弈。
-2. 系统观：关注整体结构与约束，而不是局部最优。
-3. 抽象能力：从具体经历提炼可迁移的方法论。
+## 素材逐条概括
 
-## 来源清单
+| 素材路径 | 标题/主题 | 概括 | 关键标签 | 对本维度贡献 |
+|---|---|---|---|---|
+| `README.md` | About Me | <img src="imgs/selfie-algo.jpg" width="35%" style="float:right; margin-left:20px; margin-bottom:10px;"> | 经验、反思、方法 | 补充世界观、抽象框架或跨域方法论。 |
+| `blogs/2021-gossips/about-ethics.md` | 道德哲学与行事依据 | 我们行事依据的标准是什么？具体而言，当我们面临人生规划和面对场景选择需要作出决策和判断时，有哪些思维方式理论可以参考和遵循？ 围绕这个问题引出并论述了以下道德哲学的概念和理论，目的在于表达面对同一问题的不同思考方式。不咬文嚼字，不考虑哲学史时间顺序，不突出逻辑关系，会有个人的过度解读： 1. 神旨理... | 选择、决策、实践 | 补充世界观、抽象框架或跨域方法论。 |
+| `blogs/2021-gossips/about-rambles.md` | 其它随笔 | 要对世界有共情能力，能跟身边的人和物产生共鸣。 | 选择、方法、节奏 | 补充世界观、抽象框架或跨域方法论。 |
+| `blogs/2021-gossips/unselected/gettier-in-academic.md` | 学术道德规范中的盖梯尔问题 | 学术研究是一个创造知识的过程。读者在阅读论文时，会期望从文章的结论中获取到新知识。然而，作者在将论文的新知识告知读者时，其在论证得出结论的步骤上其实有一定的可操作空间。尽管数据不能造假（否则就是明显的学术不端行为），但是总可以找到对支撑文章结论有利的论证方式，并引导读者顺着这样的论证方式相信文章得出... | 写作、选择 | 补充世界观、抽象框架或跨域方法论。（补充材料，作为旁证） |
+| `blogs/2023-columns/multiple-views.md` | 第二章：把事情分层 | 本文以“努力”、“学习”、“做事”为主题，探讨了在这些关键词上不同层次的看待方式。 | 方法、表达、选择 | 补充世界观、抽象框架或跨域方法论。 |
+| `blogs/2023-columns/unselected/know-yourself.md` | 第一章：认识自己 | 最后可以填一份关于自己的调查问卷以认识自己。 | 选择、节奏 | 补充世界观、抽象框架或跨域方法论。（补充材料，作为旁证） |
+| `blogs/2023-columns/writing-motivation.md` | 专栏写作初衷 | 中国的大学教育是“早已崩溃”的（引用自[《上海交通大学求生手册》](https://survivesjtu.gitbook.io/survivesjtumanual/li-zhi-pian/huan-ying-lai-dao-shang-hai-jiao-tong-da-xue)）。尽管许多家庭的教... | 主线、实践、写作 | 补充世界观、抽象框架或跨域方法论。 |
+| `blogs/2024-subjects/about-music.md` | 浅谈听音乐的境界 | 音乐是我日常生活中的一大爱好，聆听音乐的动机来源于追求丰富听感体验的热情，就像想去不同城市旅行感受当地风貌一样。 | 表达、节奏、留白 | 补充世界观、抽象框架或跨域方法论。 |
+| `blogs/2024-subjects/about-photography.md` | 照片、摄影与艺术 | 高中时有了手机就喜欢到处拍拍拍，每次走在校园和出游时都会随手拍下很多照片。一开始是觉得拍黑照好玩和为了记录，但是当我开始想选出一些有代表性的照片时，不禁开始思考我为什么要拍这些照片，我期待他们有什么特点，为什么是我能拍到，是什么让一张照片不会过时。 | 表达、系统、选择 | 补充世界观、抽象框架或跨域方法论。 |
+| `projects/PS.md` | Personal Statement | My journey with compilers began with **open-source contributions** during my undergraduate studies. In my junior year, I was selected for OSPP 2022, a... | 经验、反思、方法 | 补充世界观、抽象框架或跨域方法论。 |
 
-- `README.md`
-- `blogs/2021-gossips/about-ethics.md`
-- `blogs/2021-gossips/about-rambles.md`
-- `blogs/2021-gossips/unselected/gettier-in-academic.md`
-- `blogs/2023-columns/multiple-views.md`
-- `blogs/2023-columns/unselected/know-yourself.md`
-- `blogs/2023-columns/writing-motivation.md`
-- `blogs/2024-subjects/about-music.md`
-- `blogs/2024-subjects/about-photography.md`
-- `projects/PS.md`
+## 维度观察（可用于Skill输出）
 
-## 代表性标题线索（抽样）
-
-- `README.md`: About Me
-- `blogs/2021-gossips/about-ethics.md`: 道德哲学与行事依据 | 神旨理论（divine command theory） | 自然法理论（nature law theory）
-- `blogs/2021-gossips/about-rambles.md`: 其它随笔 | 与世界共情，与身边共鸣 | 最佳状态
-- `blogs/2021-gossips/unselected/gettier-in-academic.md`: 学术道德规范中的盖梯尔问题
-- `blogs/2023-columns/multiple-views.md`: 第二章：把事情分层 | 努力的不同层次 | 学习的不同层次
-- `blogs/2023-columns/unselected/know-yourself.md`: 第一章：认识自己 | 写在后面
-- `blogs/2023-columns/writing-motivation.md`: 专栏写作初衷
-- `blogs/2024-subjects/about-music.md`: 浅谈听音乐的境界 | 主动地有思考地去听音乐 | 音乐的现实意义
-- `blogs/2024-subjects/about-photography.md`: 照片、摄影与艺术 | 什么是照片 | 作为艺术的摄影
-- `projects/PS.md`: Personal Statement
+- 先给主线判断，再给取舍动作，最后给风险边界。
+- 回答尽量落到时间点、阈值和复盘条件。
+- 不确定时给验证步骤，不给伪确定结论。

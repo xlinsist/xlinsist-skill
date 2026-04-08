@@ -1,31 +1,29 @@
 # Values And Anti Patterns
 
-本维度聚焦价值观、行为边界与典型反模式。
+- 维度定义：揭示价值取向、边界意识与典型反模式。
+- 覆盖来源：**6** 篇
+- 文本规模：**17918** 字符
+- 高频关键词：`选择`(28)，`节奏`(23)，`规划`(13)，`方法`(9)，`表达`(6)，`决策`(5)
 
-- 来源数量：**6**
-- 文本总长度（字符）：**17918**
-- 高频关键词：`节奏`(23)，`表达`(6)，`决策`(5)，`系统`(5)，`实践`(5)，`主线`(1)
+## 维度总结
 
-## 维度结论
+1. 价值取向强调主体性、自我实现与长期一致性。
+2. 反模式集中在多线程焦虑、伪忙碌、完美主义内耗。
+3. 边界意识强：不把人当工具，不做无底线透支。
 
-1. 人是目的不是手段：强调主体性与真实成长。
-2. 反模式识别：完美主义、伪忙碌、多线程焦虑。
-3. 边界意识：信息不全时避免不可逆承诺。
+## 素材逐条概括
 
-## 来源清单
+| 素材路径 | 标题/主题 | 概括 | 关键标签 | 对本维度贡献 |
+|---|---|---|---|---|
+| `blogs/2021-gossips/about-rambles.md` | 其它随笔 | 要对世界有共情能力，能跟身边的人和物产生共鸣。 | 选择、方法、节奏 | 揭示价值取向、边界意识与典型反模式。 |
+| `blogs/2021-gossips/carpenters.md` | 我们都是小工匠 | 开发产品就像造椅子。为了造一把全世界最牢固的椅子，小工匠们首先需要上学，去学习基本的椅子架构是怎么样的，然后了解常用工具并学会造一把普通的椅子，这样他们就在造椅子这个技能上面入了门；等他们毕业后开始工作，为了提高生产效率，需要进一步研究各种工具的进阶用法，并巩固有关椅子稳定性的基础知识，这时他们就成... | 选择 | 揭示价值取向、边界意识与典型反模式。 |
+| `blogs/2023-columns/friendship-and-love.md` | 第七章：友情观和爱情观 | <!-- > 小时候看的动画片，从《数码宝贝》到《小马宝莉》，都是通过冒险来揭示友情的主题。要珍惜和维护友情，这一质朴的道理并不应该随时空而转移。爱情则是友情的继承，它的要求和特性对比友情应该是要有过之而无不及。 --> | 规划、方法、实践 | 揭示价值取向、边界意识与典型反模式。 |
+| `blogs/2023-columns/life-style.md` | 第六章：掌控节奏 | 假设你明天早上有微积分期末考试，但是这门课你一个学期没听。教材今晚刚到手上，你决定花一个晚上创造一个奇迹。这个时候，你是不会去考虑什么生活节奏什么时间管理的，冲就完事了。 | 节奏、规划、系统 | 揭示价值取向、边界意识与典型反模式。 |
+| `blogs/2023-columns/stay-true.md` | 第八章：回归初心 | 当开始反思何以成为我们自己时，要知道我们首先是一个人。 | 选择、表达、决策 | 揭示价值取向、边界意识与典型反模式。 |
+| `photography/simply-beauty-photographs.md` | Excerpt Of The Book | Extract from [*National Geographic Simply Beautiful Photographs*](https://www.amazon.com/National-Geographic-Beautiful-Photographs-Collectors/dp/14262... | 经验、反思、方法 | 揭示价值取向、边界意识与典型反模式。 |
 
-- `blogs/2021-gossips/about-rambles.md`
-- `blogs/2021-gossips/carpenters.md`
-- `blogs/2023-columns/friendship-and-love.md`
-- `blogs/2023-columns/life-style.md`
-- `blogs/2023-columns/stay-true.md`
-- `photography/simply-beauty-photographs.md`
+## 维度观察（可用于Skill输出）
 
-## 代表性标题线索（抽样）
-
-- `blogs/2021-gossips/about-rambles.md`: 其它随笔 | 与世界共情，与身边共鸣 | 最佳状态
-- `blogs/2021-gossips/carpenters.md`: 我们都是小工匠
-- `blogs/2023-columns/friendship-and-love.md`: 第七章：友情观和爱情观 | 友情观 | 作为朋友，给他人带来新的视角
-- `blogs/2023-columns/life-style.md`: 第六章：掌控节奏 | 引子 | 掌控生活节奏
-- `blogs/2023-columns/stay-true.md`: 第八章：回归初心 | 人是目的，不是手段 | 生活的勇气
-- `photography/simply-beauty-photographs.md`: Excerpt Of The Book
+- 先给主线判断，再给取舍动作，最后给风险边界。
+- 回答尽量落到时间点、阈值和复盘条件。
+- 不确定时给验证步骤，不给伪确定结论。
