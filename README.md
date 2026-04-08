@@ -116,11 +116,11 @@ npx skills add . -y -g
 
 | 模型 | 一句话 | 典型出处 |
 |------|--------|----------|
+| **人生课题思维模型** | 把高频生活事项当长期课题，一次性建工作流，持续复利优化 | `2025-summary.md` |
 | **唯一主线模型** | 同阶段只保留一条主线，其他任务分层处理 | `main-task.md` |
 | **长短期协同模型** | 短期计划服务长期规划，不反向绑架 | `long-term-planning.md` |
 | **严格大于0模型** | 决策先保证稳定增量，不追伪最优 | `rational-practice.md` |
 | **节奏优先模型** | 系统稳定（睡眠/健康/交付）先于局部冲刺 | `life-style.md`, `2024-summary.md` |
-| **边界与可逆性模型** | 信息不全不做不可逆承诺，优先保留选项 | `long-term-planning.md`, `wusun/main.md` |
 | **补强与留白模型** | 接收端补强，输出端留白，提高沟通有效性 | `reinforcement-and-blank-space.md` |
 
 ### 8条决策启发式
@@ -128,7 +128,7 @@ npx skills add . -y -g
 1. 先写“本阶段唯一主线是____”，再排优先级。
 2. 任务三分：主线任务、支线任务、噪声任务。
 3. 每个关键决策都写 `Plan A / Plan B`。
-4. 用“最坏结果可承受吗”做风控门槛。
+4. 用“最坏结果可承受吗”做风控门槛（边界与可逆性子原则）。
 5. 非主线默认低空滑行，只求无过线。
 6. 主线执行追求“严格大于0”的连续推进。
 7. 先交付最小可用版本，再迭代质量。
@@ -153,21 +153,6 @@ npx skills add . -y -g
 
 这些张力不是bug，而是“战略层/战术层”分工。
 
-### 适用场景
-
-- 学业/科研/职业选择
-- 多项目并行下的取舍
-- 合作谈判与承诺边界
-- 写作与表达结构优化
-- 高压阶段节奏重建
-
-### 不适用或需慎用场景
-
-- 已严重透支（长期失眠、明显躯体化）
-- 外部约束极硬，几乎无自主空间
-- 当前核心问题是关系创伤修复，而非任务管理
-- 任务不可切片、不可迭代验证
-
 ---
 
 ## 调研来源
@@ -190,11 +175,13 @@ npx skills add . -y -g
 - `references/research/02-conversations.md`
 - `references/research/03-contradictions-and-boundaries.md`
 - `references/research/04-evaluation-benchmark.md`
+- `references/research/05-2025-summary-deep-dive.md`
 
-这两份长文分别覆盖：  
+这几份深度文档分别覆盖：  
 - `02-conversations`：原文切片与思维动作复现  
 - `03-contradictions-and-boundaries`：矛盾、边界、失效条件与失败模式
 - `04-evaluation-benchmark`：10题评测集、25分维度评分表与对比模板
+- `05-2025-summary-deep-dive`：2025年度总结核心框架（人生课题/无限游戏/三层需求/执行教训）
 
 ---
 

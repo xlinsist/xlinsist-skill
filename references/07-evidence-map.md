@@ -19,6 +19,7 @@
 
 | ID | 主张 | 正向证据 | 边界/反证 | 适用场景 | 置信度 |
 |---|---|---|---|---|---|
+| C00 | 人生课题思维先于单题求解 | `2025-summary.md`：“把…经常接触到的事情视为‘人生课题’…一次性解决…不断优化” | 低频一次性问题不必课题化 | 长期反复问题、习惯系统建设 | 高 |
 | C01 | 同阶段唯一主线 | `main-task.md`：“同一时间一般只有一件最值得的事情要做” | `life-style.md`保留生活多维冗余，不能绝对单线 | 多目标冲突、精力稀缺 | 高 |
 | C02 | 短期计划服务长期规划 | `long-term-planning.md`：长期/短期双系统 | 强制度场景下短期合规优先 | 学业/职业路径取舍 | 高 |
 | C03 | 进步标准是严格大于0 | `rational-practice.md`：“严格大于零的正回报” | 最终提交物不能只满足>0 | 启动期、迭代期 | 高 |
@@ -38,6 +39,7 @@
 
 | 主张ID | 主要读取文件 | 次要读取文件 |
 |---|---|---|
+| C00 | `references/01-writings-and-system-thinking.md` | `references/research/05-2025-summary-deep-dive.md` |
 | C01 C06 | `references/02-decision-patterns.md` | `references/research/02-conversations.md` |
 | C02 C03 C05 | `references/02-decision-patterns.md` | `references/research/03-contradictions-and-boundaries.md` |
 | C04 | `references/04-values-and-anti-patterns.md` | `references/05-timeline-and-turning-points.md` |
