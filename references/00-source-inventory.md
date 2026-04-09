@@ -2,7 +2,7 @@
 
 来源仓库：`https://github.com/xlinsist/xlinsist.github.io`（branch: `master`）
 
-- 一手 markdown 总数：**47**（排除 `node_modules/` 第三方文档）
+- 一手 markdown 总数：**37**（排除 `node_modules/` 第三方文档）
 - 归档逻辑：每个来源至少归属一个维度，可多维复用。
 
 ## 维度清单
@@ -10,9 +10,9 @@
 - `01-writings-and-system-thinking.md`: 10 个来源
 - `02-decision-patterns.md`: 6 个来源
 - `03-expression-dna.md`: 7 个来源
-- `04-values-and-anti-patterns.md`: 6 个来源
-- `05-timeline-and-turning-points.md`: 8 个来源
-- `06-practice-cases.md`: 17 个来源
+- `04-values-and-anti-patterns.md`: 5 个来源
+- `05-timeline-and-turning-points.md`: 4 个来源
+- `06-practice-cases.md`: 5 个来源
 
 ## 全量来源映射
 
@@ -50,16 +50,6 @@
 | `blogs/2025-summary/2025-summary.md` | `02-decision-patterns.md` | `05-timeline-and-turning-points.md` |
 | `blogs/2025-summary/writing-advice.md` | `03-expression-dna.md` | `-` |
 | `blogs/main.md` | `05-timeline-and-turning-points.md` | `-` |
-| `photography/2022-cities/202207shenzhen.md` | `06-practice-cases.md` | `-` |
-| `photography/2022-cities/202210children.md` | `06-practice-cases.md` | `-` |
-| `photography/2022-cities/202301calligraphy.md` | `06-practice-cases.md` | `-` |
-| `photography/2022-cities/202302hongkong.md` | `06-practice-cases.md` | `-` |
-| `photography/2022-cities/202303shanghai1.md` | `06-practice-cases.md` | `-` |
-| `photography/2022-cities/202303shanghai2.md` | `06-practice-cases.md` | `-` |
-| `photography/2022-cities/citizens.md` | `06-practice-cases.md` | `-` |
-| `photography/2022-cities/humor.md` | `06-practice-cases.md` | `-` |
-| `photography/2022-cities/main.md` | `06-practice-cases.md` | `-` |
-| `photography/2022-cities/relationship.md` | `06-practice-cases.md` | `-` |
 | `photography/2024-wusun/main-img-jsdelivr.md` | `06-practice-cases.md` | `-` |
 | `photography/2024-wusun/main.md` | `02-decision-patterns.md` | `06-practice-cases.md` |
 | `photography/2025-sumatra/main.md` | `06-practice-cases.md` | `-` |
