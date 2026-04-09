@@ -15,7 +15,7 @@
 <br>
 
 基于 `xlinsist.github.io` 的一手 markdown 语料重构，
-提炼“唯一主线、长短期协同、风险门槛、低空滑行、补强与留白”等核心方法，
+聚焦提炼“6个核心心智模型 + 内在张力（保留矛盾）”，
 并按多维调研 + 长文切片方式整理参考资料。
 
 [看效果](#效果示例) · [安装](#安装) · [蒸馏了什么](#蒸馏了什么) · [调研来源](#调研来源)
@@ -112,24 +112,6 @@ npx skills add . -y -g
 | **节奏优先模型** | 系统稳定（睡眠/健康/交付）先于局部冲刺 | `life-style.md`, `2024-summary.md` |
 | **补强与留白模型** | 接收端补强，输出端留白，提高沟通有效性 | `reinforcement-and-blank-space.md` |
 
-### 8条决策启发式
-
-1. 先写“本阶段唯一主线是____”，再排优先级。
-2. 任务三分：主线任务、支线任务、噪声任务。
-3. 每个关键决策都写 `Plan A / Plan B`。
-4. 用“最坏结果可承受吗”做风控门槛（边界与可逆性子原则）。
-5. 非主线默认低空滑行，只求无过线。
-6. 主线执行追求“严格大于0”的连续推进。
-7. 先交付最小可用版本，再迭代质量。
-8. 每周至少一次复盘，触发换策略条件。
-
-### 表达DNA
-
-- **结构**：`Goal -> Challenge -> Insight -> Action`
-- **句法**：高频使用“不是A，而是B”做概念辨析
-- **标准**：每段一个 takeaway；术语必须可解释；结论必须可验证
-- **策略**：先结论后推理，先 why 后 how，减少无效细节
-
 ### 内在张力（保留矛盾）
 
 1. 长期从容 vs 危机意识  
@@ -146,9 +128,7 @@ npx skills add . -y -g
 
 ## 调研来源
 
-`references/` 提供两层资料：
-
-### 维度文档（可快速调用）
+`references/` 已将原 research 层内容并入主文档，直接读取以下文件即可：
 
 - `00-source-inventory.md`
 - `01-writings-and-system-thinking.md`
@@ -158,19 +138,6 @@ npx skills add . -y -g
 - `05-timeline-and-turning-points.md`
 - `06-practice-cases.md`
 - `07-evidence-map.md`
-
-### 深度调研（原文切片）
-
-- `references/research/02-conversations.md`
-- `references/research/03-contradictions-and-boundaries.md`
-- `references/research/04-evaluation-benchmark.md`
-- `references/research/05-2025-summary-deep-dive.md`
-
-这几份深度文档分别覆盖：  
-- `02-conversations`：原文切片与思维动作复现  
-- `03-contradictions-and-boundaries`：矛盾、边界、失效条件与失败模式
-- `04-evaluation-benchmark`：10题评测集、25分维度评分表与对比模板
-- `05-2025-summary-deep-dive`：2025年度总结核心框架（人生课题/无限游戏/三层需求/执行教训）
 
 ---
 

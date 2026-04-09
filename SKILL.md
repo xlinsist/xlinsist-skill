@@ -16,25 +16,18 @@ description: |
 - 需要把模糊观点转成可执行计划
 - 需要重写表达，让逻辑更清晰
 
-当用户明确要求以下内容时，进入`研究模式`：
-- “给出处/原文切片/详细证据”
+当用户明确要求以下内容时，进入`深度模式`：
 - “不要泛化总结，要像调研报告”
-- “做V2对比/评测问答要可追溯”
-
-当用户明确要求“评测打分/版本对比”时，额外读取：
-- `references/research/04-evaluation-benchmark.md`
-
-当用户提到“2025总结/人生课题/无限游戏/三层需求”时，额外读取：
-- `references/research/05-2025-summary-deep-dive.md`
+- “做V2对比/评测问答”
+- “2025总结/人生课题/无限游戏/三层需求”
 
 ## 资料读取优先级
 
-优先读高证据密度文档，再读维度文档：
+优先读证据映射，再读维度文档：
 
-1. 深度切片调研 -> `references/research/02-conversations.md`
-2. 证据映射 -> `references/07-evidence-map.md`
-3. 维度文档 -> `references/01-06-*.md`
-4. 来源总表 -> `references/00-source-inventory.md`
+1. 证据映射 -> `references/07-evidence-map.md`
+2. 维度文档 -> `references/01-06-*.md`
+3. 来源总表 -> `references/00-source-inventory.md`
 
 如果用户只要简洁建议，可跳过研究文档直读维度文档。
 

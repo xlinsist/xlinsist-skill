@@ -1,17 +1,18 @@
-# Evidence Map (V2)
+# Evidence Map (V3 Consolidated)
 
 > 用途：给 `xlinsist-perspective` 提供可检索、可反驳、可评分的证据矩阵。  
 > 结构：`主张ID -> 主张 -> 正向证据 -> 边界/反证 -> 适用场景 -> 置信度`。  
-> 更新时间：2026-04-08。
+> 说明：原 research 层的评测与深挖内容已并入本文件与 `references/01-06`。  
+> 更新时间：2026-04-09。
 
 ---
 
 ## 一、检索协议（推荐）
 
-1. 先定位问题类型（决策 / 表达 / 价值冲突 / 阶段诊断 / 案例推演）。  
-2. 再匹配主张ID（Cxx）。  
-3. 如需严谨论证，可附：`正向证据 + 边界条件`。  
-4. 高风险建议建议附：`失效触发条件`。
+1. 先定位问题类型（决策 / 表达 / 价值冲突 / 阶段诊断 / 案例推演）。
+2. 再匹配主张ID（Cxx）。
+3. 高风险建议附上：`为何适用 + 何时失效`。
+4. 若问题含多重冲突，先给主线判断，再给边界处理。
 
 ---
 
@@ -35,19 +36,15 @@
 
 ---
 
-## 三、主张到证据文件的映射
+## 三、主张到主文档的映射（已合并）
 
-| 主张ID | 主要读取文件 | 次要读取文件 |
+| 主张ID | 主要读取文件 | 补充读取文件 |
 |---|---|---|
-| C00 | `references/01-writings-and-system-thinking.md` | `references/research/05-2025-summary-deep-dive.md` |
-| C01 C06 | `references/02-decision-patterns.md` | `references/research/02-conversations.md` |
-| C02 C03 C05 | `references/02-decision-patterns.md` | `references/research/03-contradictions-and-boundaries.md` |
-| C04 | `references/04-values-and-anti-patterns.md` | `references/05-timeline-and-turning-points.md` |
-| C07 C11 | `references/06-practice-cases.md` | `references/research/02-conversations.md` |
-| C08 | `references/04-values-and-anti-patterns.md` | `references/research/03-contradictions-and-boundaries.md` |
-| C09 | `references/03-expression-dna.md` | `references/research/02-conversations.md` |
-| C10 | `references/01-writings-and-system-thinking.md` | `references/05-timeline-and-turning-points.md` |
-| C12 | `references/06-practice-cases.md` | `references/01-writings-and-system-thinking.md` |
+| C00 C10 | `references/01-writings-and-system-thinking.md` | `references/05-timeline-and-turning-points.md` |
+| C01 C02 C03 C05 C06 | `references/02-decision-patterns.md` | `references/06-practice-cases.md` |
+| C09 | `references/03-expression-dna.md` | `references/06-practice-cases.md` |
+| C04 C08 | `references/04-values-and-anti-patterns.md` | `references/05-timeline-and-turning-points.md` |
+| C07 C11 C12 | `references/06-practice-cases.md` | `references/01-writings-and-system-thinking.md` |
 
 ---
 
@@ -68,23 +65,85 @@
 
 ---
 
-## 五、证据使用规范
-
-1. 需要时可给 `references/*.md` 路径，方便复核。  
-2. 推荐包含一句“为何适用”与一句“何时失效”。  
-3. 若同一建议被两条主张支持，可优先给跨文件依据。  
-4. 若证据冲突，优先使用 `research/03-contradictions-and-boundaries.md` 做边界裁决。
-
----
-
-## 六、快速评分维度（回答验收）
+## 五、评分维度（回答验收）
 
 每条回答 0-5 分：
 
 1. 主张匹配度：是否匹配正确主张ID。  
 2. 论证清晰度：是否讲清判断依据。  
-3. 边界意识：是否给出不适用条件。  
+3. 边界意识：是否给出失效条件。  
 4. 可执行性：是否有明确动作和阈值。  
 5. 一致性：是否与既有主张冲突。
 
 总分 25。低于 18 视为“可用但不稳”，需重写。
+
+### 判定标准
+
+- 220-250：高质量稳定版（可直接对外）
+- 190-219：可用版（仍有边界或细节缺口）
+- 160-189：勉强可用（泛化表述偏多）
+- <160：需重写
+
+### 扣分红线
+
+1. 只给观点，不给动作。
+2. 高风险决策不给边界条件。
+3. 同一套题中前后建议冲突。
+4. 语言正确但无法落地。
+
+---
+
+## 六、2025-summary 关键切片（并入后的母文档索引）
+
+这部分用于优先支持“人生课题思维”相关问题。
+
+### 关键切片A：长期游戏母题
+
+> “人生是场长期游戏，探索自我是主线任务。”
+
+解释：短期选择应服务“长期可持续探索能力”，而不是单次体面结果。
+
+### 关键切片B：人生课题思维（上位框架）
+
+> “把生活中经常接触到的事情视为‘人生课题’…一次性解决这个课题；以后就是不断优化其中的细节。”
+
+解释：高频问题先工程化，再持续复利，而不是每次临场处理。
+
+### 关键切片C：先call住再看牌
+
+> “先call住再看牌…在申博的过程中，才慢慢把为什么这个事情想清楚。”
+
+解释：先进入反馈回路，再迭代认知；不是无准备冒进，也不是无限准备。
+
+### 关键切片D：最小可交付
+
+> “需求只做最小可交付产品(MVP)即可，省下的时间去做吃饱了闲了才会做的事情。”
+
+解释：MVP 的目的不是降标准，而是把带宽释放给更高杠杆课题。
+
+### 关键切片E：交付闭环
+
+> “交付ddl后就要整理出重要文件并做备份，到这一步才算完成闭环。”
+
+解释：交付结束不等于任务结束；归档、索引、复盘是闭环的一部分。
+
+---
+
+## 七、冲突裁决规则（内在张力并入）
+
+当建议冲突时，按以下顺序裁决：
+
+1. 先保主线（C01），再谈优化（C03/C07）。
+2. 先保节奏系统（C04），再加任务密度。
+3. 涉及不可逆风险时，优先 C05（阶段承诺优于终局承诺）。
+4. 关系与合作问题，先承认双重属性（C08），再做执行分层。
+5. 写作表达问题，先结构与读者理解（C09），再追求信息完整。
+
+---
+
+## 八、回答模板（简洁版）
+
+1. `维度结论`：一句话定义问题本质。
+2. `核心方法`：2-4步动作，含时间点。
+3. `关键边界`：什么情况下不要这么做。
+4. `执行清单`：本周可执行动作与阈值。
