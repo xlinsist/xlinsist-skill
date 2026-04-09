@@ -128,7 +128,7 @@ npx skills add . -y -g
 
 ## 调研来源
 
-`references/` 已将原 research 层内容并入主文档，直接读取以下文件即可：
+`references/` 已完成统一整合，直接读取以下文件即可：
 
 - `00-source-inventory.md`
 - `01-writings-and-system-thinking.md`
